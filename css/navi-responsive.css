@@ -75,4 +75,17 @@ Navigationsleiste neu
         background: #0b74b8;
         color: white;
     }
+
+    .site-nav-list {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .show-menu + .site-nav-list {
+        max-height: 100rem;
+
+        transition: max-height 1s ease-in-out;
+    }
+
+
 }
