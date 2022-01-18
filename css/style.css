@@ -7,8 +7,7 @@ Datum: 11.02.22*/
 
 @import url(basis.css);
 @import url(layout.css);
-/*@import url(navi-inline.css);*/
-@import url(navi-flex.css);
+@import url(navi-responsive.css);
 @import url(formulare.css);
 @import url(content.css);
 @import url(drucken.css);
