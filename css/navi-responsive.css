@@ -87,12 +87,15 @@ Navigationsleiste neu
         transition: max-height 1s ease-in-out;
     }
 
+    /* Navigation ab 768px - Menubutton ausblenden und Liste horizontal anzeigen */
     @media screen and (min-width: 768px) {
 
+        /* Menubutton verstecken */
         .menubutton {
             display: none;
         }
 
+        /* Liste einblenden und als Zeile darstellen */
         .site-nav-list {
             max-height: none;
             overflow: auto;
@@ -102,14 +105,17 @@ Navigationsleiste neu
             flex-wrap: wrap;
         }
 
+        /* Fine tuning und Fallback fur Flexboxen */
         .site-nav {
             padding: 0;
         }
 
+        /*Kindprozess von Site-nav */
         .site-nav > .wrapper {
             padding: 0 1rem;
         }
 
+        /* Fallback fur Browser die Flex nicht verstehen */
         .site-nav-list li {
             display: inline-block;
         }
