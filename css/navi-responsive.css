@@ -87,5 +87,31 @@ Navigationsleiste neu
         transition: max-height 1s ease-in-out;
     }
 
+    @media screen and (min-width: 768px) {
 
+        .menubutton {
+            display: none;
+        }
+
+        .site-nav-list {
+            max-height: none;
+            overflow: auto;
+            transition: none;
+
+            flex-flow: row;
+            flex-wrap: wrap;
+        }
+
+        .site-nav {
+            padding: 0;
+        }
+
+        .site-nav > .wrapper {
+            padding: 0 1rem;
+        }
+
+        .site-nav-list li {
+            display: inline-block;
+        }
+    }
 }
