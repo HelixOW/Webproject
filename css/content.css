@@ -96,6 +96,12 @@
         padding: 1rem;
         margin: -0.5rem -0.5rem 2rem -0.5rem;
     }
+
+    .mitglied > i.fas {
+        display: block;
+        color: #999;
+        margin-bottom: 1rem;
+    }
     
     .kontaktdaten {
         background: #eee;
