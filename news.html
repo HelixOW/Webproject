@@ -11,7 +11,7 @@
         <link rel="icon" type="image/x-icon" href="./bilder/favicon.ico">
     </head>
     <body class="news">
-       <header class="site-header">
+       <header class="site-header wrapper">
             <h1 class="site-logo">
                 <img src="./bilder/logo-html+css-222.gif" srcset="./bilder/logo-html+css-444.gif 2x, ./bilder/logo-html+css-666.gif 3x" alt="HTML+CSS" width="222" height="33" title="Das ist das Logo HTML + CSS">
             </h1>
@@ -21,6 +21,7 @@
         
         <nav class="site-nav">
             <div class="wrapper">
+                <button class="menubutton" onclick="this.classList.toggle('show-menu')"><i class="fas fa-bars"></i>&nbsp;Menü</button>
                 <ul class="site-nav-list">
                     <li><a href="index.html" target="_blank">Startseite</a></li>
                     <li><a href="./news.html" target="_blank" class="sie-sind-hier">News</a></li>
