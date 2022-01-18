@@ -1,0 +1,78 @@
+/* content.css 
+
+1. Links im Main Abschnitt
+2. Inhalte im Main Abschnitt
+*/
+
+@media screen {
+    
+    /* Hyperlinks im Inhaltsbereich gestalten */
+    .site-content a:link {
+        color: #36aade;
+    }
+
+    .site-content a:visited {
+        color: #0066dd;
+    }
+
+    .site-content a:hover, .site-content a:focus {
+        color: #f36639;
+    }
+
+    .site-content a:active {
+        color: #36aade;
+    }
+    
+    /* Experimental */
+    .site-content .kundenstimme:hover {
+        border-left: 0.25rem solid #f36639;
+        background-color: #ddd
+    }
+    
+    /* Externe Hyperlinks mit einem Symbol kennzeichenen */
+    .site-content a[href^="http"]::after {
+        content: " \29c9";
+    }
+    
+    /* Gestaltung der Infoboxen */
+    /* Infobox als Flex Container */
+    .infobox {
+        display: flex;
+        flex-flow: column;
+        
+        text-align: center;
+        background-color: white;
+        padding: 1em;
+        margin: 1em;
+    }
+    
+    .infoboxen {
+        background-color: #eee;
+        padding: 1em;
+        margin: 1em;
+    }
+    
+    /* Infoboxen nebeneinander per Grid */
+    @media screen and (min-width: 768px) {
+        .infoboxen > .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 1rem;
+        }
+    }
+
+    /* Gestaltung der Kundenstimmen */
+    .kundenstimme {
+        background-color: #eee;
+        text-align: center;
+        padding: 1em;
+        margin: 1em 0;
+        border-left: 0.25rem solid #36aade;
+    }
+    
+    .kontaktdaten {
+        background: #eee;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+}

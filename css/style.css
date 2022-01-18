@@ -1,0 +1,14 @@
+/* Stylesheet zur Gestaltung der Beispielseite
+Autor: Max Hertel
+Datum: 11.02.22*/
+
+/* Google Fonts laden */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+@import url(basis.css);
+@import url(layout.css);
+/*@import url(navi-inline.css);*/
+@import url(navi-flex.css);
+@import url(formulare.css);
+@import url(content.css);
+@import url(drucken.css);

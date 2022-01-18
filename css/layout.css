@@ -1,0 +1,47 @@
+/*
+Layout.css
+
+1. Gestaltung der Layoutbereiche
+2. Hauptnavigation in eigenem Stylesheet
+3. Elemente im Inhaltsbereich in content.css
+
+*/
+
+@media screen {
+    
+    /* Layout volle Breite */
+    
+    body {
+        background: white;
+        margin: 0;
+    }
+    
+    .wrapper {
+        min-width: 320px;
+        max-width: 960px;
+        margin: auto;
+        padding: 0 1rem;
+    }
+    
+    /* Kopfbereich */  
+    .site-logo {
+        margin-bottom: 0;
+    }
+
+    .site-slogan {
+        margin: 0
+    }
+    
+    /* Fußbereich */
+    .site-footer {
+        font-size: smaller;
+        background-color: #333;
+        padding: 1rem 0;
+        margin-top: 2rem;
+    }
+    
+    .site-footer a {
+        color: white;
+        text-decoration: none;
+    }
+}
