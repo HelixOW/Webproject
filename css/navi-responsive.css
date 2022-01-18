@@ -3,6 +3,21 @@ Navigationsleiste neu
 */
 
 @media screen {
+
+    .menubutton {
+        display: block;
+        background: #666;
+        color: white;
+
+        font-family: inherit;
+        font-size: inherit;
+        text-align: center;
+
+        padding: 0.5rem 1rem;
+        border: 0;
+        border-radius: 0.25rem;
+        margin: 0 1rem 0.5rem 1rem;
+    }
     
     /* Basisformatierung */
     .site-nav {
