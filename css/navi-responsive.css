@@ -123,5 +123,9 @@ Navigationsleiste neu
             text-align: center;
             border-right: 1px solid #eee;
         }
+
+        .site-nav-list li:first-child {
+            border-left: 1px solid #eee;
+        }
     }
 }
